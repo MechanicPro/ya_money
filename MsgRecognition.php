@@ -17,6 +17,7 @@ class MsgRecognition
                 $res['cost'] = $match[1];
             }
         }
+        
         return $res;
     }
 }
